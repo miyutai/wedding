@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taisei & Miyuu Wedding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <h1>Taisei & Miyuu</h1>
+      <p>2025年11月22日 - パラッツォドゥカーレ麻布</p>
+    </div>
+  </header>
+
+  <section class="intro">
+    <h2>ごあいさつ</h2>
+    <p>このたび、私たち中島大誠と小田切美唯は結婚することとなりました。<br>
+    感謝の気持ちを込めて、ささやかながら結婚式を執り行います。ぜひご出席いただけますと幸いです。</p>
+  </section>
+
+  <section class="photos">
+    <img src="images/photo_1.jpg" alt="photo1">
+    <img src="images/photo_2.jpg" alt="photo2">
+    <img src="images/photo_3.jpg" alt="photo3">
+    <img src="images/photo_4.jpg" alt="photo4">
+  </section>
+
+  <section class="form-section">
+    <h2>出欠フォーム</h2>
+    <form action="https://formspree.io/f/xblyagyj" method="POST">
+      <label>お名前：<input type="text" name="name" required></label>
+      <label>ご出欠：
+        <select name="attendance" required>
+          <option value="">選択してください</option>
+          <option value="出席">出席</option>
+          <option value="欠席">欠席</option>
+        </select>
+      </label>
+      <label>アレルギーの有無：<input type="text" name="allergy"></label>
+      <label>ご住所：<input type="text" name="address"></label>
+      <label>メッセージ：<textarea name="message" rows="4"></textarea></label>
+      <button type="submit">送信</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Taisei & Miyuu Wedding</p>
+  </footer>
+</body>
+</html>
