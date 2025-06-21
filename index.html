@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taro & Hanako Wedding</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Taro <span>&amp;</span> Hanako</h1>
+    <p class="subtitle">Wedding Celebration</p>
+  </header>
+
+  <main>
+    <section id="gallery" class="photo-gallery">
+      <h2>写真ギャラリー</h2>
+      <div class="gallery-grid">
+        <img src="images/photo_1.jpg" alt="Photo 1" />
+        <img src="images/photo_2.jpg" alt="Photo 2" />
+        <img src="images/photo_3.jpg" alt="Photo 3" />
+        <img src="images/photo_4.jpg" alt="Photo 4" />
+        <img src="images/photo_5.jpg" alt="Photo 5" />
+        <img src="images/photo_6.jpg" alt="Photo 6" />
+        <img src="images/photo_7.jpg" alt="Photo 7" />
+      </div>
+    </section>
+
+    <section id="greeting" class="greeting-section">
+      <h2>ご挨拶</h2>
+      <p>私たちの結婚式のウェブサイトをご覧いただきありがとうございます。特別な一日を皆様と共有し、お祝いできることを心から楽しみにしています。</p>
+      <p>これまで支えてくださった家族や友人の皆様に感謝し、当日お会いできることを楽しみにしております。</p>
+    </section>
+
+    <section id="contact" class="contact-form">
+      <h2>お問い合わせ</h2>
+      <form action="https://formspree.io/f/yourFormID" method="POST">
+        <div class="form-group">
+          <label for="name">お名前</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">メールアドレス</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">メッセージ</label>
+          <textarea id="message" name="message" rows="4" placeholder="メッセージがあればご記入ください"></textarea>
+        </div>
+        <button type="submit">送信</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Taro &amp; Hanako</p>
+  </footer>
+</body>
+</html>
