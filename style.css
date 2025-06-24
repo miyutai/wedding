@@ -1,0 +1,22 @@
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #fff;
+  color: #333;
+}
+.hero {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.placeholder {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2em;
+}
